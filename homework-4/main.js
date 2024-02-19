@@ -1,3 +1,5 @@
+// Вариант 23
+
 let data_camera = {
     camera: {
     model: 'Sony Alpha ZV-E10',
