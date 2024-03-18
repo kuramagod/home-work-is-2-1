@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="main.js"></script>
+    <title>Домашнее-задание-8</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title form">Расчет стоимости
+            продуктов в супермаркете</h1>
+        <div class="form form" id="form">
+            <label for="">Цена за молоко</label>
+            <input type="text" class="price" id="price-m">
+            <label for="">Кол-во продукта</label>
+            <input type="text" class="price" id="quantity-m">
+            <br>
+            <br>
+            <label for="">Цена за яйца(9шт)</label>
+            <input type="text" class="price" id="price-e">
+            <label for="">Кол-во продукта</label>
+            <input type="text" class="price" id="quantity-e">
+            <br>
+            <br>
+            <label for="">Цена за овощи</label>
+            <input type="text" class="price" id="price-v">
+            <label for="">Кол-во продукта</label>
+            <input type="text" class="price" id="quantity-v">
+            <br><br>
+            <button onclick="calculate()" id="saveBtn">Рассчитать</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    
+</body>
+</html>
