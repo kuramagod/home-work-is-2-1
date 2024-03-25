@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Услуги</h2>
+        <div class="service-form">
+            <p>Название услуги</p>
+            <input onchange="checkInput()" type="text" class="service-input" id="nameService">
+            <p>Стоимость</p>
+            <input onchange="checkInput()" type="text" class="service-input" id="coastService">
+            <p>Описания</p>
+            <input onchange="checkInput()" type="text" class="service-input" id="discriptionService">
+            <p>Продолжительность c</p>
+            <input onchange="checkInput()" type="datetime-local" id="dateServiceStart" class="service-input">
+            <p>до</p>
+            <input onchange="checkInput()" type="datetime-local" id="dateServiceEnd" class="service-input">
+            <p>Изображение</p>
+            <input onchange="checkInput()" type="file" class="image" id="imageService">
+            
+            <button onclick="addService()" class="service-button" id="taskBtn">Добавить</button>
+        </div>
+        <div class="request-list" id="requestList"></div>
+    </div>
+    </div>
+</body>
+</html>
